@@ -1,0 +1,180 @@
+html, body {
+  height: 100vh;
+  font-size: 0.95rem;
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  font-size: xx-large;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.analysis {
+  margin: 15px;
+}
+
+.logo img{
+  margin-bottom: 1rem;
+}
+
+.logo h1 {
+  color: #007fc5;
+}
+.logo p {
+  color: rgba(0, 0 ,0 , 0.5);
+}
+
+.blue {
+  background-color: #007fc5;
+}
+form.container {
+  margin: 0;
+  width: 100%;
+}
+legend {
+font-size: 1rem;
+font-family: 'Lato', sans-serif;
+color: rgba(0, 0 ,0 , 0.5);
+font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1.7px solid #aaa;
+  border-radius: 4px;
+  margin: 5px 0;
+  outline: none;
+  padding: 7px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 50px;
+}
+
+.inputWithIcon {
+  position: relative;
+  width: 80%;
+  margin: 0rem auto;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15px 8px;
+  padding-left: 15px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: #007fc5;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+.form-check-input[type=checkbox] {
+  border-radius: .15em;
+}
+.form-check-input {
+  width: .9em;
+  height: .9em;
+}
+fieldset {
+    margin: 0rem auto;
+    width: 80%;
+    padding-right: .5rem;
+}
+.form-check {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: .7rem;
+} 
+.form-check-label a {
+color: #007fc5;
+text-decoration: none;
+}
+.btn-primary {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.2rem;
+background-color: #007fc5;
+color: #fff;
+border-color: #007fc5;
+width: 35vw;
+margin-left: -1rem;
+}
+
+p.text-center {  
+color: rgba(0, 0 ,0 , 0.5);
+margin-bottom: 0rem;
+}
+
+.footer a {
+text-decoration: none;
+color: #000;
+margin-left: 5px;
+}
+.footer {
+  width: 82%;
+margin: 0rem auto;
+display: flex;
+}
+.google{
+margin-right: 4rem;
+}
+.text-center p {
+margin-top: 1rem;
+margin-bottom: 0.8rem;
+}
+.text-center p a {
+text-decoration: none;
+color: #007fc5;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+}
+@media (max-width: 567px){
+body {
+  font-size: 0.8rem;
+}
+
+.fieldset{
+  float: none;
+}
+.btn-primary {
+  width: 66vw;
+}
+.footer {
+  margin-left: 2.9rem;
+}
+.google{
+  margin-right: 1rem;
+}
+}
+@media (max-width: 991px) and (min-width: 568px) {
+.btn-primary {
+  width: 66vw;
+}
+.google{
+  margin-right: 1rem;
+}
+}
