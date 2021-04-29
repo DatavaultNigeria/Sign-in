@@ -6,7 +6,23 @@ html, body {
 h1 {
   font-size: xx-large;
 }
-
+img.hidden-md {
+    width: 90%;
+}
+.blue h1 {
+  margin-top: 1rem;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.blue p {
+  color: #a7a7a7;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
 .icon {
   margin: 5px;
 }
@@ -16,20 +32,23 @@ h1 {
 }
 
 .logo img{
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .logo h1 {
   color: #007fc5;
 }
 .logo p {
-  color: rgba(0, 0 ,0 , 0.5);
+  color: rgba(0, 0 ,0 , 0.5); 
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .blue {
   background-color: #007fc5;
 }
 form.container {
+  padding-top: 3rem;
   margin: 0;
   width: 100%;
 }
@@ -44,9 +63,9 @@ input[type="text"] {
   width: 100%;
   border: 1.7px solid #aaa;
   border-radius: 4px;
-  margin: 5px 0;
+  margin: 8px 0;
   outline: none;
-  padding: 7px;
+  padding: 8px;
   box-sizing: border-box;
   transition: 0.3s;
 }
@@ -69,7 +88,7 @@ input[type="text"]:focus {
 .inputWithIcon i {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 8px;
   padding: 15px 8px;
   padding-left: 15px;
   color: #aaa;
@@ -99,7 +118,7 @@ fieldset {
     padding-right: .5rem;
 }
 .form-check {
-  float: left;
+  margin-left: 4rem;
   margin-right: 5px;
   margin-bottom: .7rem;
 } 
@@ -116,9 +135,25 @@ background-color: #007fc5;
 color: #fff;
 border-color: #007fc5;
 width: 35vw;
-margin-left: -1rem;
+margin-left: -1.5rem;
 }
 
+.footer-p {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.footer-p  a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-p p{
+  margin: 1.5rem 0rem 1rem;
+  font-weight: 500;
+}
+.footer-p h6 {
+  margin: 2rem 0 1rem;
+  color: #b7b7b7;
+}
 p.text-center {  
 color: rgba(0, 0 ,0 , 0.5);
 margin-bottom: 0rem;
@@ -134,12 +169,12 @@ margin-left: 5px;
 margin: 0rem auto;
 display: flex;
 }
+.ft-p p {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
 .google{
 margin-right: 4rem;
-}
-.text-center p {
-margin-top: 1rem;
-margin-bottom: 0.8rem;
 }
 .text-center p a {
 text-decoration: none;
@@ -168,6 +203,9 @@ body {
 }
 .google{
   margin-right: 1rem;
+}
+.footer-p h6 {
+ font-size: 1rem;
 }
 }
 @media (max-width: 991px) and (min-width: 568px) {
